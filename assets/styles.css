@@ -249,6 +249,7 @@ main > section:nth-of-type(even)::after{right:auto;left:-11%;top:auto;bottom:6%;
   width:100%;
   background:var(--marine);
   display:flex;align-items:center;
+  transform-origin:center top;
   will-change:transform,border-radius;
 }
 .hero-scene::before{
@@ -504,7 +505,7 @@ a.carte:hover .fleche::after{transform:translateX(8px)}
 .pied a{color:var(--clair-doux);text-decoration:none;transition:color .2s}
 .pied a:hover{color:var(--blanc)}
 .pied-grille{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:38px}
-.pied h4{font-family:var(--titre);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--bleu-clair);margin:0 0 1.15rem;font-weight:600}
+.pied h3{font-family:var(--titre);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--bleu-clair);margin:0 0 1.15rem;font-weight:600}
 .pied ul{list-style:none;padding:0;margin:0}
 .pied li{margin-bottom:.62em}
 .pied-logo{width:76px;margin-bottom:16px;opacity:.95}
