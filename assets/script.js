@@ -39,7 +39,7 @@
       barre.style.transform = "scaleX(" + (total > 0 ? Math.min(1, y / total) : 0) + ")";
     }
 
-    // Héro plein écran : la scène se rétracte pour laisser apparaître le site
+    // Héro plein écran : la scène se rétracte vers le haut, le titre reste visible.
     if (scene && plein && !doux && window.innerWidth > 900) {
       var h = plein.offsetHeight || 1;
       var p = Math.min(1, Math.max(0, y / h));
